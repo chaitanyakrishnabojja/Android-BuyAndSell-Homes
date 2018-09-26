@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtHomeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginStart="112dp"
+        android:gravity="center_horizontal|center"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:paddingLeft="10dp" />
+
+    <RadioGroup
+        android:id="@+id/rdgrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rdoBtnCredit"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/rdoBtnCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Credit" />
+
+        <RadioButton
+            android:id="@+id/rdoBtnDebit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Debit" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txtCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Card Number"
+        android:inputType="numberSigned"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtExpDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="MMYY"
+        android:inputType="numberSigned"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtCVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="cvv"
+        android:inputType="numberSigned"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_green_dark"
+        android:padding="10dp"
+        android:text="BUY" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_red_light"
+        android:padding="10dp"
+        android:text="Cancel" />
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:layout_marginStart="56dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="?attr/colorError" />
+
+</LinearLayout>

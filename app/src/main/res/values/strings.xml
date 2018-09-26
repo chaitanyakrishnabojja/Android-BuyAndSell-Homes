@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BuyAndSellHomes</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="enter_photo_title">Enter Home title</string>
+    <string name="price">Price</string>
+    <string name="city">City</string>
+    <string name="Province">Province</string>
+    <string name="capture">Capture</string>
+    <string name="save">Save</string>
+    <string name="tags">Tags</string>
+    <string name="titles">Titles</string>
+    <string name="show_map">Show Map</string>
+    <!-- These are the items in our Navigation drawer -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Buy Home</item>
+        <item>Sell Home</item>
+        <item>Sold Homes</item>
+        <item>Contact Us</item>
+        <item>About</item>
+    </string-array>
+</resources>
